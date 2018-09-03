@@ -41,7 +41,7 @@ function getJoke(category){
       break;
     case 'chuck':
     default:
-      loadXMLDoc('http://api.icndb.com/jokes/random',function(resp){
+      loadXMLDoc('https://api.icndb.com/jokes/random',function(resp){
         chuckJoke.innerHTML = resp.value.joke;
       });
       break;
