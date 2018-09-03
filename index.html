@@ -1,0 +1,106 @@
+<!DOCTYLE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kelvin Macharia Ngunyi | Home</title>
+	<link rel="stylesheet" href="styles/style.css" type="text/css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Josefin+Sans" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<ul id="links">
+			<li><a href="mailto:ngunyimacharia@gmail.com">Email Me</a></li>
+		</ul>
+		<div id="logo"><span>K . M . N</span></div>
+		<ul id="socials">
+			<li>
+				<a href="https://www.facebook.com/ngunyimacharia">
+					<i class="fab fa-facebook"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/ngunyimacharia">
+					<i class="fab fa-twitter-square"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/kelvin-ngunyi">
+					<i class="fab fa-linkedin"></i>
+				</a>
+			</li>
+		</ul>
+	</header>
+
+	<div class="hero">
+		<h1>Hi, I'm Kelvin Macharia</h1>
+		<div class="headerCounter">1</div>
+	</div>
+
+	<div class="jokes-prompt">
+		Wanna laugh?
+		<a onclick="displayJokes()">Yes</a>
+		<a onclick="noJokes()">No</a>
+	</div>
+	<div class="joke-container bg-grey" id="jokes">
+		<span class="title">Chuck Norris Joke:</span>&nbsp;<span class="chuck-joke" ondblclick="getJoke('chuck')"></span>
+		<hr/>
+			<span class="title">Random:</span>&nbsp;<span class="rand-joke" ondblclick="getJoke('rand')"></span>
+			<hr/>
+		<div class="instructions">Doubleclick on the joke :-D</div>
+	</div>
+
+	<div class = "bg-orange">
+		<div class="about row">
+			<div class="description">
+				To utilize my mathematical, innovative and technology enthusiasm, skills and capabilities to fuel the design, development, integration and maintenance of web-based systems using the latest available technologies.
+				<br/>
+				<br/>
+				I believe in technology and how it can be used to improve facilitation, accountability and documentation of our everyday processes.
+			</div>
+		</div>
+	</div>
+<!--
+	<div>
+		<h2>Portfolio</h2>
+		<div class="websites">
+	</div> -->
+
+	<div class="bg-white contact">
+		<div class="row">
+			<div class = "col2">
+				<div class = "hire text-center">
+					<h2>Hire me</h2>
+					<p>
+						Thanks for taking an interest in my skills!
+						Unfortunately I am not currently looking for consistent freelance work, but I am open to one-off projects such as simple websites.
+						Please either fill out the contact form on the right or email me at <a href="mailto:ngunyimacharia@gmail.com">ngunyimacharia@gmail.com</a> and we can set up a meeting either in person or over the phone.
+					</p>
+					<a href="documents/Kelvin_Macharia_Ngunyi_CV.pdf" target="_blank">Download my Resume</a>
+				</div>
+			</div>
+			<div class="col2">
+				<form>
+					<div>
+						<label>Your Name (required)</label>
+						<input />
+					</div>
+					<div>
+						<label>Your Email (required)</label>
+						<input />
+					</div>
+					<div>
+						<label>Your Message</label>
+						<textarea></textarea>
+					</div>
+					<div>
+						<button>Send Message</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+	<script src="scripts/main.js"></script>
+	</body>
+	</html>
