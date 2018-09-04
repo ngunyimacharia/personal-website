@@ -1,0 +1,45 @@
+/* Header section */
+
+header{
+  width: 100%;
+
+  ul{
+    list-style-type: none;
+    display: inline-block;
+    width: 30vw;
+
+    li{
+      display: inline-block;
+    }
+
+  }
+
+  div{
+    display: inline-block;
+    width: 30vw;
+  }
+
+  #logo{
+    text-align: center;
+
+    span{
+      background-color: orange;
+      width:70px;
+      text-align: center;
+      padding: 5px;
+      margin: auto;
+    }
+
+  }
+
+  #socials{
+    text-align: right;
+    font-size: 1.3em;
+
+    li{
+      margin: 0 1px;
+    }
+
+  }
+
+}

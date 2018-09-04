@@ -1,170 +1,157 @@
-/* Bootstrapping */
-.bg-orange{
+/* Theme colors */
+/* Backgrounds */
+.bg-orange {
   background-color: orange;
 }
 
-.bg-white{
+.bg-white {
   background-color: white;
 }
 
-.bg-grey{
+.bg-grey {
   background-color: #f2f2f2;
 }
 
-.text-center{
+/* Behaviours */
+.text-center {
   text-align: center;
 }
 
-a{
+/* Standard body styling */
+a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
-body{
-  background-image: url('../images/background.jpg');
+body {
+  background-image: url("../images/background.jpg");
   background-size: cover;
-  color:#fff;
+  color: #fff;
   line-height: 2em;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   padding: 0;
-  border:0;
+  border: 0;
   margin: 0;
 }
 
-h1,h2,h3,h4,h5,h6{
-  font-family: 'Gloria Hallelujah', cursive;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gloria Hallelujah", cursive;
 }
 
-form{
-  width:90%;
+form {
+  width: 90%;
   margin: 0 auto;
 }
-
-form div{
-  margin: 20px 0  20px;
+form div {
+  margin: 20px 0 20px;
   text-align: left;
 }
-
-input{
+form input {
   width: 100%;
   height: 40px;
   margin: 3% 0;
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
-
-textarea{
-  width:100%;
+form textarea {
+  width: 100%;
   height: 100px;
   margin: 3% 0;
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
-
-form label{
+form label {
   text-align: left;
   width: 100%;
   display: block;
   font-weight: bolder;
 }
-
-form button{
+form button {
   background-color: #fff;
-  border:1px solid orange;
+  border: 1px solid orange;
   padding: 10px 20px;
 }
 
 /* Header section */
-
-header{
+header {
   width: 100%;
 }
-
-header ul{
+header ul {
   list-style-type: none;
   display: inline-block;
-}
-
-header div , header ul li{
-  display: inline-block;
-}
-
-header ul, header div{
   width: 30vw;
 }
-
-header #logo{
+header ul li {
+  display: inline-block;
+}
+header div {
+  display: inline-block;
+  width: 30vw;
+}
+header #logo {
   text-align: center;
 }
-
-header #logo span{
+header #logo span {
   background-color: orange;
-  width:70px;
+  width: 70px;
   text-align: center;
   padding: 5px;
   margin: auto;
 }
-
-header #socials{
+header #socials {
   text-align: right;
   font-size: 1.3em;
 }
-
-header #socials li{
+header #socials li {
   margin: 0 1px;
 }
 
 /* Hero section */
-.hero{
-  padding:35vh 0;
+.hero {
+  padding: 35vh 0;
   text-align: center;
 }
 
-.col2{
+.col2 {
   width: 49%;
   display: inline-flex;
 }
 
-
-.about{
+.about {
   background-color: orange;
-  background: url('../images/image.jpg');
-  background-position: center right ;
+  background: url("../images/image.jpg");
+  background-position: center right;
   background-attachment: fixed;
   background-size: 50% 30vw;
   background-repeat: no-repeat;
 }
-
-.about .description{
-  width:40%;
+.about .description {
+  width: 40%;
   padding: 50px;
 }
 
 /* Jokes section */
-.jokes-prompt{
-  color:#000;
+.jokes-prompt {
+  color: #000;
   position: fixed;
   bottom: 0;
   background-color: #fff;
   padding: 2px 5px;
-  border:solid orange;
+  border: solid orange;
   border-width: 1px 1px 0 0;
 }
-
-.jokes-prompt a{
-  color:orange;
-  cursor:pointer;
+.jokes-prompt a {
+  color: orange;
+  cursor: pointer;
 }
 
-.joke-container{
-  color:#000;
+.joke-container {
+  color: #000;
   padding: 40px;
   display: none;
 }
-
-.joke-container .title{
-  color:red;
+.joke-container .title {
+  color: red;
 }
-
-.joke-container .instructions{
+.joke-container .instructions {
   text-align: center;
   font-style: italic;
   color: orange;
@@ -172,21 +159,21 @@ header #socials li{
 }
 
 /* Contact section */
-.contact{
-  color:#000;
+.contact {
+  color: #000;
   text-align: center;
 }
 
-.hire{
-  width:100%;
+.hire {
+  width: 100%;
   padding: 50px;
 }
-
-.hire h2{
+.hire h2 {
   font-size: 4em;
-  color:orange;
+  color: orange;
+}
+.hire a {
+  color: orange;
 }
 
-.hire a{
-  color:orange;
-}
+/*# sourceMappingURL=main.css.map */
